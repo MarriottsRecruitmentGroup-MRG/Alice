@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/png" href="favicon.png">
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marriott International Recruitment</title>
@@ -18,13 +16,15 @@
             padding: 0 20px;
         }
         header {
-            padding: 50px 20px 20px;
+            padding: 40px 20px 20px;
         }
-        h1, h2 {
-            margin: 10px 0;
+        header img {
+            width: 200px;
+            margin-bottom: 20px;
         }
         h1 {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
         }
         h2 {
             color: #ff6600;
@@ -35,46 +35,19 @@
             max-width: 700px;
             margin: 0 auto 30px;
         }
-        .btn, button {
+        .btn {
             display: inline-block;
             padding: 12px 30px;
             margin-top: 10px;
             background-color: #ff6600;
             color: #fff;
-            border: none;
             border-radius: 5px;
+            text-decoration: none;
             font-weight: bold;
-            text-decoration: none;
-            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
-        .btn:hover, button:hover {
+        .btn:hover {
             background-color: #e05200;
-        }
-        .section {
-            padding: 40px 20px;
-            border-top: 1px solid #ffffff22;
-        }
-        form {
-            max-width: 500px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-        input, select, textarea {
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            font-family: 'Poppins', sans-serif;
-        }
-        .socials {
-            margin-top: 20px;
-        }
-        .socials a {
-            margin: 0 10px;
-            color: #ff6600;
-            font-weight: 600;
-            text-decoration: none;
         }
         footer {
             margin-top: 50px;
@@ -86,43 +59,12 @@
 </head>
 <body>
     <header>
-        <img src="4b5a31a1-54d2-40b8-854d-02de59488bc5.png" alt="Marriott Logo" width="200" />
+        <img src="logo-marriott.jpg" alt="Marriott Logo" />
         <h1>Marriott International Recruitment</h1>
         <h2>Worldwide Opportunities</h2>
         <p>We’re hiring passionate and committed individuals to join our remote team. Explore global job opportunities with flexibility, support, and growth.</p>
         <a href="https://t.me/Marriotts_RecruitmentTeam" class="btn" target="_blank">Apply Now via Telegram</a>
     </header>
-
-    <div class="section" id="about">
-        <h2>About Us</h2>
-        <p>We’re looking for reliable, proactive individuals who are interested in reviewing and managing hotel data remotely. No prior experience in the hospitality industry is required — we just want motivated people who are eager to learn and grow with us!</p>
-    </div>
-
-    <div class="section" id="apply">
-        <h2>Online Application</h2>
-        <form onsubmit="event.preventDefault(); alert('Thank you! Your application has been submitted.');">
-            <input type="text" placeholder="Full Name" required />
-            <input type="number" placeholder="Age" required />
-            <input type="text" placeholder="Nationality" required />
-            <input type="text" placeholder="Languages Spoken" required />
-            <input type="text" placeholder="Telegram ID (e.g. @yourusername)" required />
-            <select required>
-                <option value="">Preferred Job Type</option>
-                <option value="data-review">Hotel Data Reviewer</option>
-                <option value="admin-support">Admin Support</option>
-                <option value="social-media">Social Media Support</option>
-            </select>
-            <textarea rows="4" placeholder="Tell us briefly about yourself..."></textarea>
-            <button type="submit">Submit Application</button>
-        </form>
-    </div>
-
-    <div class="socials">
-        <h3>Follow us</h3>
-        <a href="https://facebook.com/" target="_blank">Facebook</a>
-        <a href="https://instagram.com/" target="_blank">Instagram</a>
-        <a href="https://line.me/" target="_blank">LINE</a>
-    </div>
 
     <footer>
         &copy; 2025 Marriott International Group. All rights reserved.
